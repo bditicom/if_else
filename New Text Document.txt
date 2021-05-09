@@ -1,0 +1,51 @@
+#decision control
+print("welcom this is number guesing game")
+a=int()
+for i in range(1,100):
+    
+    x=int(input("guess the number "))
+    if(x==4):
+        a=int()
+        print("your guess is right , great, you  win")
+    else:
+        a=a+1
+        if(x<4):
+            print("too low")
+        else:
+            print("to high")
+        print("you loose")
+    if(a%3==0):
+    	print("try again")
+You sent September 20, 2020
+#PASSWORD
+while True:
+    x=str(input("what is your name : "))
+    if(x!="rahul"):
+        continue
+    y= str(input("hello rahul, what is your password "))
+    if(x=="rahul123"):
+        break
+print("access granted, Wellcome to rahul")
+You sent September 20, 2020
+def print_number(x):
+    i=1
+    while(i<=x):
+        print (i)
+        i=i+1
+print(print_number(25))
+You sent September 20, 2020
+def print_number(x):
+    i=1
+    while True:
+        print (i)
+        i=i+1
+print(print_number(25))
+You sent September 20, 2020
+def print_number(x):
+    i=1
+    while True:
+        if (i>x):
+            break
+        print (i)
+        i=i+1
+print(print_number(25))
